@@ -1,0 +1,191 @@
+{
+    "_embedded": {
+      "employees": [
+        {
+          "id": 10001,
+          "birthDate": "1953-09-02",
+          "firstName": "Georgi",
+          "lastName": "Facello",
+          "gender": "M",
+          "hireDate": "1986-06-26",
+          "_links": {
+            "self": {
+              "href": "http://localhost:8081/employees/10001"
+            },
+            "employee": {
+              "href": "http://localhost:8081/employees/10001"
+            }
+          }
+        },
+        {
+          "id": 10002,
+          "birthDate": "1964-06-02",
+          "firstName": "Bezalel",
+          "lastName": "Simmel",
+          "gender": "F",
+          "hireDate": "1985-11-21",
+          "_links": {
+            "self": {
+              "href": "http://localhost:8081/employees/10002"
+            },
+            "employee": {
+              "href": "http://localhost:8081/employees/10002"
+            }
+          }
+        },
+        {
+          "id": 10003,
+          "birthDate": "1959-12-03",
+          "firstName": "Parto",
+          "lastName": "Bamford",
+          "gender": "M",
+          "hireDate": "1986-08-28",
+          "_links": {
+            "self": {
+              "href": "http://localhost:8081/employees/10003"
+            },
+            "employee": {
+              "href": "http://localhost:8081/employees/10003"
+            }
+          }
+        },
+        {
+          "id": 10004,
+          "birthDate": "1954-05-01",
+          "firstName": "Chirstian",
+          "lastName": "Koblick",
+          "gender": "M",
+          "hireDate": "1986-12-01",
+          "_links": {
+            "self": {
+              "href": "http://localhost:8081/employees/10004"
+            },
+            "employee": {
+              "href": "http://localhost:8081/employees/10004"
+            }
+          }
+        },
+        {
+          "id": 10005,
+          "birthDate": "1955-01-21",
+          "firstName": "Kyoichi",
+          "lastName": "Maliniak",
+          "gender": "M",
+          "hireDate": "1989-09-12",
+          "_links": {
+            "self": {
+              "href": "http://localhost:8081/employees/10005"
+            },
+            "employee": {
+              "href": "http://localhost:8081/employees/10005"
+            }
+          }
+        },
+        {
+          "id": 10006,
+          "birthDate": "1953-04-20",
+          "firstName": "Anneke",
+          "lastName": "Preusig",
+          "gender": "F",
+          "hireDate": "1989-06-02",
+          "_links": {
+            "self": {
+              "href": "http://localhost:8081/employees/10006"
+            },
+            "employee": {
+              "href": "http://localhost:8081/employees/10006"
+            }
+          }
+        },
+        {
+          "id": 10007,
+          "birthDate": "1957-05-23",
+          "firstName": "Tzvetan",
+          "lastName": "Zielinski",
+          "gender": "F",
+          "hireDate": "1989-02-10",
+          "_links": {
+            "self": {
+              "href": "http://localhost:8081/employees/10007"
+            },
+            "employee": {
+              "href": "http://localhost:8081/employees/10007"
+            }
+          }
+        },
+        {
+          "id": 10008,
+          "birthDate": "1958-02-19",
+          "firstName": "Saniya",
+          "lastName": "Kalloufi",
+          "gender": "M",
+          "hireDate": "1994-09-15",
+          "_links": {
+            "self": {
+              "href": "http://localhost:8081/employees/10008"
+            },
+            "employee": {
+              "href": "http://localhost:8081/employees/10008"
+            }
+          }
+        },
+        {
+          "id": 10009,
+          "birthDate": "1952-04-19",
+          "firstName": "Sumant",
+          "lastName": "Peac",
+          "gender": "F",
+          "hireDate": "1985-02-18",
+          "_links": {
+            "self": {
+              "href": "http://localhost:8081/employees/10009"
+            },
+            "employee": {
+              "href": "http://localhost:8081/employees/10009"
+            }
+          }
+        },
+        {
+          "id": 10010,
+          "birthDate": "1963-06-01",
+          "firstName": "Duangkaew",
+          "lastName": "Piveteau",
+          "gender": "F",
+          "hireDate": "1989-08-24",
+          "_links": {
+            "self": {
+              "href": "http://localhost:8081/employees/10010"
+            },
+            "employee": {
+              "href": "http://localhost:8081/employees/10010"
+            }
+          }
+        }
+      ]
+    },
+    "_links": {
+      "first": {
+        "href": "http://localhost:8081/employees?page=0&size=20"
+      },
+      "self": {
+        "href": "http://localhost:8081/employees{?page,size,sort}",
+        "templated": true
+      },
+      "next": {
+        "href": "http://localhost:8081/employees?page=1&size=20"
+      },
+      "last": {
+        "href": "http://localhost:8081/employees?page=15001&size=20"
+      },
+      "profile": {
+        "href": "http://localhost:8081/profile/employees"
+      }
+    },
+    "page": {
+      "size": 10,
+      "totalElements": 300024,
+      "totalPages": 15002,
+      "number": 0
+    }
+  }
+  
